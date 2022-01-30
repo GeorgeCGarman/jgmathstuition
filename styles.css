@@ -49,31 +49,8 @@ section {
 
 .testimonials {
   background-color: #F9F3DF;
-  height: 20rem;
+  height: 25rem;
   position: relative;
-}
-
-.quote {
-  font-family: 'Muli', sans-serif;
-  font-size: 6rem;
-  position: absolute;
-  color: hsl(46, 68%, 80%);
-}
-
-.quote-left {
-  background-color: #F9F3DF;
-  left: 10%;
-  right: 0;
-  top: 0;
-  bottom: 0;
-}
-
-.quote-right {
-  background-color: #F9F3DF;
-  left: 90%;
-  right: 0;
-  top: 80;
-  bottom: 0;
 }
 
 .top-container {
@@ -97,6 +74,10 @@ section {
 @media only screen and (max-width: 600px) {
   .title-text {
     width: 100%;
+  }
+
+  .testimonials {
+    height: 30rem;
   }
 }
 
