@@ -1,0 +1,123 @@
+
+* {
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Merriweather', serif;
+  font-size: 46px;
+}
+
+h2 {
+  font-family: 'Muli', sans-serif;
+  font-size: 36px;
+  font-weight: 200;
+}
+
+h3 {
+  font-family: 'Merriweather', serif;
+  font-size: 36px;
+  font-weight: 400;
+  padding: 0 0 .5rem 0;
+}
+
+h4 {
+  font-family: 'Muli', sans-serif;
+  font-size: 25px;
+}
+
+p {
+  font-family: 'Muli', sans-serif;
+  font-size: 20px;
+}
+
+button {
+  background-color: #D7E9F7;
+  border: none;
+  font-size: 20px;
+  padding: .5em;
+}
+
+section {
+  padding: 5% 15%;
+}
+
+.title {
+  padding: 10% 15% 5% 15%;
+  background-color: #F9F3DF;
+}
+
+.testimonials {
+  background-color: #F9F3DF;
+  height: 20rem;
+  position: relative;
+}
+
+.quote {
+  font-family: 'Muli', sans-serif;
+  font-size: 6rem;
+  position: absolute;
+  color: hsl(46, 68%, 80%);
+}
+
+.quote-left {
+  background-color: #F9F3DF;
+  left: 10%;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.quote-right {
+  background-color: #F9F3DF;
+  left: 90%;
+  right: 0;
+  top: 80;
+  bottom: 0;
+}
+
+.top-container {
+  padding: 20% 20%;
+  background-color: #F9F3DF;
+}
+
+.contact-me {
+  background-color: #F9F3DF;
+}
+
+.middle-container {
+  padding: 0 20% 20% 20%;
+  /* background-color: #FDFCE5; */
+}
+
+.title-text {
+  width: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+  .title-text {
+    width: 100%;
+  }
+}
+
+.subtitle-text {
+  padding-top: 1rem;
+}
+
+.profile-pic {
+  float: right;
+  width: 200px;
+}
+
+@media only screen and (max-width: 600px) {
+  .profile-pic {
+    float: none;
+  }
+}
+
+.calculator-pic {
+  position: absolute;
+  width: 200px;
+  left: 3rem;
+  bottom: 20rem;
+}
